@@ -1,0 +1,34 @@
+/* Adjust navbar height */
+.navbar {
+  height: 80px; /* Adjust height as needed */
+  padding: 0;
+}
+
+/* Increase font size and adjust padding for navbar links */
+.navbar-nav .nav-link {
+  font-size: 1.1rem; /* Increase font size */
+  padding: 1rem 1.5rem; /* Add padding for more space */
+}
+
+/* Adjust the brand logo size */
+.navbar-brand {
+  font-size: 1.5rem; /* Increase font size for the brand */
+  padding: 0.5rem 1rem; /* Add padding to match the height */
+}
+
+/* Adjust the navbar toggler button */
+.navbar-toggler {
+  padding: 0.5rem; /* Increase padding around the toggler */
+}
+
+/* Ensure the brand and toggler are vertically centered */
+.navbar-nav, .navbar-brand, .navbar-toggler {
+  display: flex;
+  align-items: center;
+}
+
+/* Optional: Adjust the search form for better integration */
+.form-inline {
+  display: flex;
+  align-items: center;
+}
